@@ -19,6 +19,6 @@ app.use("/send",sendRoute)
 
 
 
-app.listen(PORT,'0.0.0.0',()=>{
+app.listen(PORT,()=>{
 console.log(`your Backend is running at http://localhost:${PORT}`)
 })
