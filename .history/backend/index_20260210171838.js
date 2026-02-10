@@ -10,7 +10,8 @@ app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
     origin:[
-        "https://personalmail.vercel.app"
+        "http://localhost:5173",
+        "https://personalmail.vercel.app",
     ],
     credentials:true,
 }))
