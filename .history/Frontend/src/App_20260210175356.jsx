@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { server } from "./main.jsx"
+import { server } from "./main"
 import axios from "axios"
 import {toast, Toaster} from "sonner"
 function App() {

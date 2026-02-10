@@ -20,7 +20,6 @@ export const sendmail = async (req, res) => {
       subject,
       text,
     });
-    console.log("Mail sent:", info.messageId)
     res.status(200).json({ message: "Mail sent successfully!" });
   } catch (err) {
     console.log("Mail error:", err); // ✅ check console logs
